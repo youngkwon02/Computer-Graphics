@@ -1,0 +1,4 @@
+﻿  swimming_cubeman.cpp
+C:\Users\1102k\Desktop\cube_car\src\swimming_cubeman.cpp(238,22): warning C4101: 'pvmMat' :참조되지 않은 지역 변수입니다.
+C:\Users\1102k\Desktop\cube_car\src\swimming_cubeman.cpp(261,11): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  cube.vcxproj -> C:\Users\1102k\Desktop\cube_car\Debug\cube.exe
