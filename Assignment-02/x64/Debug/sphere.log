@@ -1,0 +1,57 @@
+﻿  initShader.cpp
+  main.cpp
+C:\Users\1102k\Desktop\sphere_texture\src\main.cpp(45,60): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\1102k\Desktop\sphere_texture\src\main.cpp(46,66): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\1102k\Desktop\sphere_texture\src\main.cpp(47,67): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\1102k\Desktop\sphere_texture\src\main.cpp(67,3): warning C4312: '형식 캐스트': 'int'에서 더 큰 'GLvoid *'(으)로의 변환입니다.
+C:\Users\1102k\Desktop\sphere_texture\src\main.cpp(72,3): warning C4312: '형식 캐스트': 'int'에서 더 큰 'GLvoid *'(으)로의 변환입니다.
+C:\Users\1102k\Desktop\sphere_texture\src\main.cpp(117,51): warning C4267: '인수': 'size_t'에서 'GLsizei'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\1102k\Desktop\sphere_texture\src\main.cpp(131,11): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  sphere.cpp
+  texture.cpp
+  코드를 생성하고 있습니다...
+initShader.obj : error LNK2019: __imp___glewAttachShader"unsigned int __cdecl InitShader(char const *,char const *)" (?InitShader@@YAIPEBD0@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+initShader.obj : error LNK2019: __imp___glewCompileShader"unsigned int __cdecl InitShader(char const *,char const *)" (?InitShader@@YAIPEBD0@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+initShader.obj : error LNK2019: __imp___glewCreateProgram"unsigned int __cdecl InitShader(char const *,char const *)" (?InitShader@@YAIPEBD0@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+initShader.obj : error LNK2019: __imp___glewCreateShader"unsigned int __cdecl InitShader(char const *,char const *)" (?InitShader@@YAIPEBD0@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+initShader.obj : error LNK2019: __imp___glewGetProgramInfoLog"unsigned int __cdecl InitShader(char const *,char const *)" (?InitShader@@YAIPEBD0@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+initShader.obj : error LNK2019: __imp___glewGetProgramiv"unsigned int __cdecl InitShader(char const *,char const *)" (?InitShader@@YAIPEBD0@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+initShader.obj : error LNK2019: __imp___glewGetShaderInfoLog"unsigned int __cdecl InitShader(char const *,char const *)" (?InitShader@@YAIPEBD0@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+initShader.obj : error LNK2019: __imp___glewGetShaderiv"unsigned int __cdecl InitShader(char const *,char const *)" (?InitShader@@YAIPEBD0@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+initShader.obj : error LNK2019: __imp___glewLinkProgram"unsigned int __cdecl InitShader(char const *,char const *)" (?InitShader@@YAIPEBD0@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+initShader.obj : error LNK2019: __imp___glewShaderSource"unsigned int __cdecl InitShader(char const *,char const *)" (?InitShader@@YAIPEBD0@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+initShader.obj : error LNK2019: __imp___glewUseProgram"unsigned int __cdecl InitShader(char const *,char const *)" (?InitShader@@YAIPEBD0@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+main.obj : error LNK2001: 확인할 수 없는 외부 기호 __imp___glewUseProgram
+main.obj : error LNK2019: __imp_glewInitmain 함수에서 참조되는 확인할 수 없는 외부 기호
+main.obj : error LNK2019: __imp_glutInitWindowSizemain 함수에서 참조되는 확인할 수 없는 외부 기호
+main.obj : error LNK2019: __imp_glutInitDisplayModemain 함수에서 참조되는 확인할 수 없는 외부 기호
+main.obj : error LNK2019: __imp_glutMainLoopmain 함수에서 참조되는 확인할 수 없는 외부 기호
+main.obj : error LNK2019: __imp_glutPostRedisplay"void __cdecl idle(void)" (?idle@@YAXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+main.obj : error LNK2019: __imp_glutSwapBuffers"void __cdecl display(void)" (?display@@YAXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+main.obj : error LNK2019: __imp_glutIdleFuncmain 함수에서 참조되는 확인할 수 없는 외부 기호
+main.obj : error LNK2019: __imp_glutKeyboardFuncmain 함수에서 참조되는 확인할 수 없는 외부 기호
+main.obj : error LNK2019: __imp_glutReshapeFuncmain 함수에서 참조되는 확인할 수 없는 외부 기호
+main.obj : error LNK2019: __imp_glutDisplayFuncmain 함수에서 참조되는 확인할 수 없는 외부 기호
+main.obj : error LNK2019: __imp_glutGet"void __cdecl idle(void)" (?idle@@YAXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+main.obj : error LNK2019: __imp___glutInitWithExitglutInit_ATEXIT_HACK 함수에서 참조되는 확인할 수 없는 외부 기호
+main.obj : error LNK2019: __imp___glutCreateWindowWithExitglutCreateWindow_ATEXIT_HACK 함수에서 참조되는 확인할 수 없는 외부 기호
+main.obj : error LNK2019: __imp_glutInitContextVersionmain 함수에서 참조되는 확인할 수 없는 외부 기호
+main.obj : error LNK2019: __imp_glutInitContextProfilemain 함수에서 참조되는 확인할 수 없는 외부 기호
+main.obj : error LNK2019: __imp___glewActiveTexture"void __cdecl init(void)" (?init@@YAXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+main.obj : error LNK2019: __imp___glewBindBuffer"void __cdecl init(void)" (?init@@YAXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+main.obj : error LNK2019: __imp___glewBufferData"void __cdecl init(void)" (?init@@YAXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+main.obj : error LNK2019: __imp___glewBufferSubData"void __cdecl init(void)" (?init@@YAXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+main.obj : error LNK2019: __imp___glewGenBuffers"void __cdecl init(void)" (?init@@YAXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+main.obj : error LNK2019: __imp___glewEnableVertexAttribArray"void __cdecl init(void)" (?init@@YAXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+main.obj : error LNK2019: __imp___glewGetAttribLocation"void __cdecl init(void)" (?init@@YAXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+main.obj : error LNK2019: __imp___glewGetUniformLocation"void __cdecl init(void)" (?init@@YAXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+main.obj : error LNK2019: __imp___glewUniform1i"void __cdecl init(void)" (?init@@YAXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+main.obj : error LNK2019: __imp___glewUniformMatrix4fv"void __cdecl display(void)" (?display@@YAXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+main.obj : error LNK2019: __imp___glewVertexAttribPointer"void __cdecl init(void)" (?init@@YAXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+main.obj : error LNK2019: __imp___glewBindVertexArray"void __cdecl init(void)" (?init@@YAXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+main.obj : error LNK2019: __imp___glewGenVertexArrays"void __cdecl init(void)" (?init@@YAXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+texture.obj : error LNK2019: __imp___glewCompressedTexImage2D"unsigned int __cdecl loadDDS(char const *)" (?loadDDS@@YAIPEBD@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+texture.obj : error LNK2019: __imp___glewGenerateMipmap"unsigned int __cdecl loadBMP_custom(char const *)" (?loadBMP_custom@@YAIPEBD@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+freeglut.lib : warning LNK4272: 'x86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+glew32.lib : warning LNK4272: 'x86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+C:\Users\1102k\Desktop\sphere_texture\x64\Debug\sphere.exe : fatal error LNK1120: 41개의 확인할 수 없는 외부 참조입니다.
